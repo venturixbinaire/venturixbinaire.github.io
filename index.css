@@ -1,0 +1,98 @@
+html, head, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-color: black;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+.blue-overlay {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.venturix-logo {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    font-family: 'Elektra';
+    text-align: center;
+    font-size: 90px;
+    color: white; 
+}
+.subhead {
+    color: white;
+    font-family: 'Avenir';
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    top: 40%;
+    font-size: 25px;
+}
+.logo-img {
+    width: 10%;
+    top: 70%;
+    position: absolute;
+    left: 30%;
+}
+.logo-binaire {
+    font-family: 'ProximaNova';
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 30%; top: 75%;
+}
+.dev {
+    font-family: 'Avenir';
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 90%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.screenshot-container {
+    width: 50%;
+    height: 16%;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    left: 25%;
+    top: 50%;
+}
+
+.screenshot-venturix {
+    width: 15%;
+    bottom: 0;
+    flex: 3;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+::-webkit-selection { /* Code for Firefox */
+    background: black;
+    opacity: 0.2;
+}
+
+::-o-selection {
+    background: black;
+    opacity: 0.2;
+}
+::-moz-selection { /* Code for Firefox */
+    background: black;
+    opacity: 0.2;
+}
+
+::selection {
+    background: black;
+    opacity: 0.2;
+}
